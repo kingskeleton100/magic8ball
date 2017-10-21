@@ -1,0 +1,27 @@
+<script>
+  var answers = [
+    'ask again later',
+    'my sources say no',
+    'yes',
+    'concentrate and ask again',
+    'ask your brother slob',
+  ];
+
+  function getAnswer()
+  {
+    var length = answers.length;
+    var random = Math.floor(Math.random() * length);
+    
+    alert(answers[random]);
+  }
+
+</script>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button type="button" onclick="getAnswer()">Shake the Magic 8-Ball!</button>
+
+</body>
+</html>
